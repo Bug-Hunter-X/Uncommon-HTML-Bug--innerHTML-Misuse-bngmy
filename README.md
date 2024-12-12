@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the usage of `innerHTML` in JavaScript within an HTML context. The bug arises when attempting to append content to an element using `innerHTML +=`. While it may seem to work initially, subsequent calls overwrite the previous content instead of appending to it.
